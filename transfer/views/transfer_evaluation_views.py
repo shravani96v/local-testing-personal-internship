@@ -23,7 +23,7 @@ class TransferEvaluationDetailView(DetailView):
 class TransferEvaluationCreateView(CreateView):
 
     model = Transferevaluation
-    template_name = 'transferEvaluation_new.html'
+    template_name = 'transferevaluation_html/transfereval_new.html'
     fields = ['transfer_eval_id']
 
 class TransferEvaluationUpdateView(UpdateView):

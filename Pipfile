@@ -9,6 +9,7 @@ verify_ssl = true
 django = "==3.0.3"
 openpyxl = "*"
 xlrd = "*"
+gunicorn = "==20.0.4"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
